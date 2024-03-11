@@ -1,4 +1,9 @@
-#Themis
+
+# ActiveProspect
+
+This fork is maintained by ActiveProspect so that we can continue using Themis as a JSON Schema draft-04 validation module, but with a more secure version of the uglify-js dependency.
+
+# Themis
 
 Themis is a blazing fast, compiled JSON Schema v4 validator. Themis was created for use in environments where there is a large amount of data that has to be validated against the same schema multiple times. Eg: *REST API Servers*.
 
@@ -813,4 +818,3 @@ node benchmark
 Author
 ======
 Johny Jose <[johny@playlyfe.com](mailto)>
-
