@@ -1,6 +1,6 @@
 Themis = require('../src/themis');
 
-describe.only('Issue #3: Crashing when pattern is incorrect in ref(erenced) schema', function() {
+describe('Issue #3: Crashing when pattern is incorrect in ref(erenced) schema', function() {
 
   it('should be able to dereference fragments of external schemas', function() {
     var schemas = [
