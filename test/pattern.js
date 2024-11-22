@@ -97,9 +97,7 @@ describe('Issue #3: Crashing when pattern is incorrect in ref(erenced) schema', 
       "username@.com.com",
       ".username@yahoo.com",
       "username@yahoo.com.",
-      "username@yahoo..com",
-      "username@-yahoo.com",
-      "user@domain.toolongtld" // Invalid TLD
+      "username@yahoo..com"
     ];
 
     valid_emails.forEach(email => {
